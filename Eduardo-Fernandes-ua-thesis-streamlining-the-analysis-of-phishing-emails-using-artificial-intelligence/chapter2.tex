@@ -31,6 +31,19 @@ Defined in \ac{rfc} 5321~\cite{rfc5321}, \ac{smtp} is the standard protocol for 
 
 % explicar o processo de envio de um email
 
+On the Figure \ref{fig:c2:email_flow} it is shown an example of the email delivery process between the sender and the recipient. This flow is explained in the following steps:
+\begin{enumerate}
+    \item The sender writes an email and clicks the send button;
+    \item The email's destination must be determined by the \ac{smtp} server. It makes a DNS query to find data related to the recipient's information;
+    \item The DNS server returns the necessary information of the recipient's email service provider to the \ac{smtp} server;
+    \item The \ac{smtp} server sends the email across the Internet to the destination mailbox;
+    \item In this stage, the email passes through various \ac{smtp} servers and is finally relayed to the destination \ac{smtp} server; 
+    \item The email finally reaches the final \ac{smtp} server;
+    \item The sender email is forwarded and is now sitting in the local \ac{imap}/\ac{pop3} server waiting for the recipient;
+    \item Upon logging into his email client, the intended recipient checks for fresh emails in his mailbox by querying the local \ac{imap}/\ac{pop3} server;
+    \item The receiving email client copies (\ac{imap}) or downloads (\ac{pop3}) the sender email. 
+\end{enumerate}
+
 \input{figs_tex/c2/email_flow.tex}
 
 \subsection{Email structure}
