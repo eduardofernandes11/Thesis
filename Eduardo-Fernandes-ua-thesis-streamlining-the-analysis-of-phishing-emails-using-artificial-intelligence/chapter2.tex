@@ -149,16 +149,19 @@ By incorporating \ac{ml} and \ac{dl} into phishing detection, we not only aim to
 
 \subsection{Natural Language Processing}
 
-% transformer models (BERT - tracking relationships in sequential data like the words in this sentence)
-
 % falar de coisas gerais sem entrar muito em detalhe
 
+% descrição do que é nlp
 As a branch of artificial intelligence, \ac{nlp} focuses on the interaction between computers and human language. \ac{nlp} combines the power of linguistics and computer science to study the rules and structure of language, and create intelligent systems capable of understanding, analyzing, and extracting meaning from various human inputs, such as voice, and text.
 
 It covers a range of techniques and methodologies designed to enable machines to understand, interpret, and respond to human language in a valuable and meaningful way. Human signs and languages, such as voice, writing, and text, can be automated with a certain level of accuracy using \ac{nlp} techniques~\cite{Sathish20231612}.
 
-
+% o que é que o nlp pode fazer para detetar phishing
 The relevance of NLP in detecting phishing emails is based in its ability to analyze and understand the textual content of emails. Phishing emails frequently include linguistic clues different from those in normal correspondence, and trick recipients into revealing sensitive information. These cues can be subtle, such as the use of specific words or phrases, or more obvious, such as poor grammar and spelling. In either case, these linguistic features can be used to identify phishing emails, and \ac{nlp} techniques can be used to extract and analyze them.
+
+% falar de algumas técnicas de nlp
+The \ac{nlp} field is vast and has a wide array of techniques, each contributing uniquely to the understanding and processing of language. Some of the techniques that form the basis of many \ac{nlp} tasks include tokenization, normalization, stemming, the use of stop words, the application of regular expressions, similarity measures, and both syntactic and semantic analysis.
+Advancements in this area have led to the development of more sophisticated techniques. \ac{bert} and \ac{rnn} are two examples of such techniques that can be used to process textual data in the \ac{nlp} field.
 
 % ver melhor este texto
 \citet{Gutierrez2018988} mentioned that the most common defensive approaches frequently display a lack of adaptability. This is primarily because of its basis in rigid frameworks like regular expressions that recognize specific text patterns. This limitation highlights how important it is to find different methods to improve phishing detection. The problem for already existing automated solutions, built to manage the flood of phishing emails, is to quickly detect unseen phishing attempts. A major flaw in this solutions is their reliance on surface-level text analysis rather than exploring deeper linguistic patterns and deceitful strategies, such as the use of synonyms and varied sentence structures.
@@ -189,6 +192,10 @@ The model's performance was evaluated using four DL algorithms: Long Short-Term 
 Further analysis revealed that both GRU and BiGRU consistently outperformed LSTM and BiLSTM in terms of test accuracy. Notably, GRU demonstrated the fastest training time, completing its training in just 240 seconds, which could be beneficial if rapid processing is required.
 
 \section{Sentiment analysis}
+
+% o que é sentiment analysis
+
+% Natural Language Understanding (NLU) pode ser importante para perceber o sentimento de um email
 
 \section{Insights}
 
