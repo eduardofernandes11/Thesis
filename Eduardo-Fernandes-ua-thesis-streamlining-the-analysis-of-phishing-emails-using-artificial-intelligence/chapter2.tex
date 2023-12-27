@@ -152,15 +152,24 @@ By incorporating \ac{ml} and \ac{dl} into phishing detection, we not only aim to
 % falar de coisas gerais sem entrar muito em detalhe
 
 % descrição do que é nlp
-As a branch of artificial intelligence, \ac{nlp} focuses on the interaction between computers and human language. \ac{nlp} combines the power of linguistics and computer science to study the rules and structure of language, and create intelligent systems capable of understanding, analyzing, and extracting meaning from various human inputs, such as voice, and text.
+As a branch of artificial intelligence, \ac{nlp} focuses on the interaction between computers and human language. \ac{nlp} combines the power of linguistics and computer science to study the rules and structure of language and create intelligent systems capable of understanding, analyzing, and extracting meaning from various human inputs, such as voice, and text.
 
 It covers a range of techniques and methodologies designed to enable machines to understand, interpret, and respond to human language in a valuable and meaningful way. Human signs and languages, such as voice, writing, and text, can be automated with a certain level of accuracy using \ac{nlp} techniques~\cite{Sathish20231612}.
 
 % o que é que o nlp pode fazer para detetar phishing
-The relevance of NLP in detecting phishing emails is based in its ability to analyze and understand the textual content of emails. Phishing emails frequently include linguistic clues different from those in normal correspondence, and trick recipients into revealing sensitive information. These cues can be subtle, such as the use of specific words or phrases, or more obvious, such as poor grammar and spelling. In either case, these linguistic features can be used to identify phishing emails, and \ac{nlp} techniques can be used to extract and analyze them.
+The relevance of NLP in detecting phishing emails is based on its ability to analyze and understand the textual content of emails. Phishing emails frequently include linguistic clues different from those in normal correspondence, and trick recipients into revealing sensitive information. These cues can be subtle, such as the use of specific words or phrases, or more obvious, such as poor grammar and spelling. In either case, these linguistic features can be used to identify phishing emails and \ac{nlp} techniques can be used to extract and analyze them.
 
-% falar de algumas técnicas de nlp
-The \ac{nlp} field is vast and has a wide array of techniques, each contributing uniquely to the understanding and processing of language. Some of the techniques that form the basis of many \ac{nlp} tasks include tokenization, normalization, stemming, the use of stop words, the application of regular expressions, similarity measures, and both syntactic and semantic analysis.
+% falar do processo de nlp e de algumas técnicas utilizadas
+The \ac{nlp} field is vast and has a wide array of techniques, each contributing uniquely to the understanding and processing of language in the \ac{nlp} process. Data preprocessing is one step in \ac{nlp} that involves cleaning and transforming raw data into a format that can be understood and used by models. Some of the techniques used in this step include tokenization, normalization, stemming, the use of stop words, the application of regular expressions and both syntactic and semantic analysis.
+Feature extraction is another important step in \ac{nlp} that involves the extraction of features from the text. These features can be used to train \ac{ml} models to perform various tasks in this field. Techniques such as bag-of-words, word embeddings, and TF-IDF are used to extract features from text.
+After this, numerical features extracted by the previous techniques can be fed into \ac{ml} models. Depending on the task, different models can be used, such as classification, clustering, and regression models.
+
+% mostrar aplicações de nlp com machine learning
+\citet{Vazhayil201869} presents an insightful application of \ac{nlp} methods in conjunction with \ac{ml} models for phishing email detection. This study uses Term Document Matrix (TDM) for the non-sequential representation of the corpus, followed by Singular Value Decomposition (SVD) and Nonnegative Matrix Factorization (NMF) to extract important features. These extracted features were then used to train various \ac{ml} algorithms, including \ac{dt}, \ac{knn}, \ac{nb}, \ac{rf}, \ac{svm}, and \ac{lr}. In the conclusion, they highlighted the effectiveness of this approach in distinguishing phishing emails from legitimate ones. However, the paper also acknowledges a limitation: the reliance on feature selection, which requires domain knowledge. To address this, future work could incorporate deep learning models that can learn more complex patterns directly from the raw data, potentially improving efficacy.
+
+% mostrar aplicações de nlp com deep learning
+Unlike traditional \ac{ml} models, \ac{dl} models can automatically detect and learn features from raw text. This reduces the need to manually extract features from text.
+
 Advancements in this area have led to the development of more sophisticated techniques. \ac{bert} and \ac{rnn} are two examples of such techniques that can be used to process textual data in the \ac{nlp} field.
 
 % ver melhor este texto
