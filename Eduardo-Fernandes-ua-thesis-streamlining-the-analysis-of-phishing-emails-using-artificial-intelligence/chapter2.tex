@@ -203,8 +203,25 @@ Further analysis revealed that both GRU and BiGRU consistently outperformed LSTM
 \section{Sentiment analysis}
 
 % o que é sentiment analysis
+Sentiment analysis is a \ac{nlp} technique that refers to the process of evaluating and determining the sentiment, which is characterized as feeling or emotion, contained in a certain text.
+The core of sentiment analysis lies in polarity detection, which classifies text into basic categories like positive, negative, or neutral. However, sentiment analysis goes beyond polarity to identify particular emotions like happiness, frustration, anger, and sadness. This technique can be applied to a wide range of domains, including social media, customer reviews, and emails.
 
-% Natural Language Understanding (NLU) pode ser importante para perceber o sentimento de um email
+% como funciona sentiment analysis (ver aqui https://monkeylearn.com/sentiment-analysis/)
+Generally, the input to a sentiment classification model is a piece of text, and the output is the probability of a certain sentiment or emotion. Typically, this probability is based on either hand-generated features, word n-grams, TF-IDF features, or using deep learning models to capture sequential long- and short-term dependencies. Many emotion systems use lexicons, which are lists of words and their corresponding emotions. These lexicons can be used to determine the sentiment of a text by counting the number of words that match the words in the lexicon. However, this approach is limited by the fact that it does not consider the context of the words, which can lead to inaccurate results.
+
+% desafios de sentiment analysis
+Despite its wide applications, sentiment analysis faces several challenges. One of the most significant is detecting sarcasm and irony, as these often convey the opposite meaning of the literal words used, leading to potential misinterpretation. Additionally, sentiment analysis must contend with contextual and cultural variations. The same phrase may carry different meanings in different cultures or situations, complicating universal model applicability. Moreover, because human language can be unclear and different people might see it differently, sentiment analysis becomes more complicated. What is considered a positive sentiment in one context may be neutral or even negative in another, which is why we need advanced models that understand the context.
+
+% téncicas de sentiment analysis
+
+
+% exemplos de artigos que fazem sentiment analysis
+% ver melhor esta parte
+The~\citet{SAILUNAZ2019101003} study provides a robust example of an integrated approach. The researchers focused on extracting sentiment and emotion from tweets and replies on specific topics. This involved creating a dataset encompassing text, user emotion, sentiment information, and various other parameters.
+
+A specific example is the Sentiment Analysis Module detailed in the~\citet{10085351} study, where this module captures the emotions or sentiments expressed in emails. It employs the \ac{nltk}, an open-source Python library, to analyze the text based on common and repetitive sentiment words included in the training set. Determining sentence polarity is an important part of this module since it helps to comprehend the emotional tone that an email provides. The system pre-determines the polarity of specific polar words to interpret the sentiment accurately. 
+
+
 
 \section{Insights}
 
