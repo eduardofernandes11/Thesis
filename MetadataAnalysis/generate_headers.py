@@ -1,6 +1,8 @@
 import random
 import os, shutil
 from email.generator import Generator
+from email.parser import BytesParser
+from email import policy
 from email.mime.multipart import MIMEMultipart
 from faker import Faker  # package that generates fake data
 
@@ -15,7 +17,7 @@ required_headers = [
     'Return-Path'
 ]
 
-fake_institutions = [
+from_addresses = [
     "noreply@bankofamerica.com", 
     "support@apple.com",
     "service@paypal.com"
@@ -27,12 +29,23 @@ subjects = [
     "Warning: Payment Declined - Update Billing Information Now!"
 ]
 
+# read and parse real emails to extract information
+def parse_real_emails(folder_path):
+    subjects, from_addresses = [], []
+    for filename in os.listdir(folder_path):
+        if filename.endswith('.eml'):
+            with open(os.path.join(folder_path, filename), 'rb') as f:
+                msg = BytesParser(policy=policy.default).parse(f)
+                subjects.append(msg['subject'])
+                from_addresses.append(msg['from'])
+    return subjects, from_addresses
+
 def generate_phishing_headers():
     headers = {}
     for header_name in required_headers:
         if header_name == 'From':
             # spoofed "From" address lookin like legitimate institutions
-            headers[header_name] = random.choice(fake_institutions)
+            headers[header_name] = random.choice(from_addresses)
         elif header_name == 'To':
             headers[header_name] = fake.email()
         elif header_name == 'Subject':
@@ -48,6 +61,17 @@ def generate_phishing_headers():
         elif header_name == 'Return-Path':
             # spoofed "Return-Path" similar to "From" but can be different
             headers[header_name] = fake.email()
+    # headers = {
+    #     'From': random.choice(from_addresses),  # use a real "From" address as a template
+    #     'To': fake.email(),
+    #     'Subject': random.choice(subjects),  # use a real subject line as a template
+    #     'Date': fake.date_time().strftime("%a, %d %b %Y %H:%M:%S %z"),
+    #     'Message-ID': f"<{fake.uuid4()}@{fake.domain_name()}>",
+    #     'Return-Path': fake.email(),
+    #     'DKIM-Signature': "Invalid",  # indicate missing or invalid DKIM signature
+    #     'Received-SPF': "Fail",  # indicate SPF failure
+    #     'DMARC-Filter': "None"  # indicate DMARC misalignment
+    # }
     return headers
 
 if __name__ == '__main__':
