@@ -1,4 +1,5 @@
 **/build
+**/__pycache__
 *.aux
 *.bbl
 *.bcf
@@ -18,3 +19,4 @@
 *.idx
 *.DS_Store
 *.csv
+*.pyc

@@ -1,0 +1,4 @@
+transformers==4.38.2
+uvicorn==0.28.1
+torch==2.2.1
+python-multipart==0.0.9
