@@ -1,0 +1,106 @@
+subject;text;emotion
+"Immediate Action Required: Security Breach Detected";"Dear user, we've detected unauthorized access to your account. Your personal information is at risk. Please log in immediately using the link below to secure your account. Failure to do so within 24 hours may result in permanent account suspension.";fear
+"Alert: Suspicious Login Attempt";"We've noticed a suspicious login attempt from an unrecognized device. Was this you? If not, your account may be compromised. Click here to verify your identity and protect your account now.";fear
+"Urgent: Payment Information Compromised";"Our systems have detected unusual activity on your account involving your payment information. It's possible that your financial data has been compromised. Click here immediately to review and secure your account.";fear
+"Warning: Your Email is Being Phished";"Be advised that we've identified an attempt to phish your email. Hackers may be trying to steal your personal information. Do not click on any links or respond to suspicious emails. Click here to learn how to protect yourself.";fear
+"Immediate Attention Required: Account at Risk";"Our security system has flagged your account for unusual activity, putting your personal data at imminent risk. Secure your account now by clicking here. Delaying may result in data loss or theft.";fear
+"Did You Know Your Account Has Hidden Features?";"Discover the secrets of your account with hidden features you've never seen before. Unlock these exclusive features now by clicking here. What will you discover?";curiosity
+"How Secure Is Your Data? Find Out Now";"Ever wondered how secure your data really is? Click here to take our quick security quiz and find out. Plus, learn tips and tricks for keeping your information safe.";curiosity
+"What's New in Your Dashboard?";"We've added some exciting new features to your dashboard. Can you find them all? Click here to explore what's new and improve your experience.";curiosity
+"Can You Spot the Difference in Your Account?";"We've made a change to your account. Can you spot what's different? Click here to see if you're right and discover what's new.";curiosity
+"Unlock the Mystery: Exclusive Content Just for You";"We have a surprise waiting in your account. Something exclusive just for you. Unlock the mystery now by clicking here. What could it be?";curiosity
+"Act Fast! Exclusive Offer Ends Soon";"This is your chance! An exclusive offer just for our valued users – but it's disappearing fast. Click here to claim your offer before it's too late!";excitement
+"Exciting News: Your Account Has Been Selected!";"Congratulations! Your account has been selected for an exclusive preview of our new feature. Be the first to try it out by clicking here. Hurry, access is limited!";excitement
+"Limited Time: Unlock Your Special Reward";"You've earned it! A special reward awaits you in your account, but it's for a limited time only. Click now to unlock your reward before it vanishes.";excitement
+"Don't Miss Out: Your Early Access Invitation";"Get ready for an exciting opportunity! You're invited to early access of our newest update. Click here to be among the first to explore. Don't miss out!";excitement
+"Time-Sensitive: Confirm Your Details to Win";"You're almost there! Confirm your details now for a chance to win our exclusive prize. Time is running out, so click here to secure your entry!";excitement
+"Account Verification Needed?";"We noticed a discrepancy in your account information that needs verification. It's a bit confusing, but clicking here will guide you through resolving it. Help us help you.";confusion
+"Did You Attempt This Unusual Activity?";"There's been some unusual activity on your account that doesn't quite add up. Was this you? Click here to clear up this confusion and ensure your account's security.";confusion
+"Strange Message Received: Action Required?";"You've received a message in your account that seems out of place. We're as puzzled as you are. Click here to review and take appropriate action if needed.";confusion
+"Conflicting Account Alerts: Clarification Needed";"Our system has sent out some conflicting alerts regarding your account. We understand this is confusing. Click here to get to the bottom of this and ensure your account's integrity.";confusion
+"Unrecognized Changes to Your Account";"It appears there have been changes to your account that weren't authorized by you. This situation is perplexing. Click here to review these changes and revert them if necessary.";confusion
+"We Value Your Security: Please Update Your Info";"As part of our commitment to your security, we're asking all valued users to update their account information. Click here to update and ensure your account remains protected.";caring
+"Your Feedback Matters: Help Us Improve";"Your experience is important to us. Help us improve by providing your feedback. Click here to tell us what you think and how we can better serve you.";caring
+"We're Here for You: Account Support";"Noticed something off with your account? We're here to help. Click here for support, and let's ensure everything is running smoothly for you.";caring
+"Protecting Your Data: Important Security Tips";"Your privacy and security are our top priority. Click here for important tips on protecting your data and keeping your account safe.";caring
+"Thank You for Being Part of Our Community";"We're grateful to have you with us. As a token of our appreciation, we've added a special bonus to your account. Click here to see your exclusive gift.";caring
+"Final Notice: Account Suspension Imminent";"This is your last warning. Your account will be suspended due to suspicious activity. Click immediately to prevent this.";fear
+"Security Alert: Immediate Action Required";"Your account security is compromised. Immediate action is required to protect your personal information. Click here now.";fear
+"Urgent: Confirm Your Identity Now";"We've detected potential fraud on your account. Confirm your identity within the next 24 hours or face account closure.";fear
+"Critical Security Warning: Account at High Risk";"ALERT: Your account is at high risk of hacking. Secure your personal data now by clicking here. Do not ignore!";fear
+"Action Required: Verify Your Account to Avoid Lockout";"We've noticed unusual sign-in activity. Verify your account by clicking here to avoid being locked out.";fear
+"Guess What's Coming to Your Account?";"Something big is coming to your account. Can you guess what it is? Click here for a sneak peek. Don't miss out!";curiosity
+"What Secrets Does Your Usage Reveal?";"Your account usage reveals interesting secrets about your preferences. Click here to uncover what we've found!";curiosity
+"Surprise Inside: Open to Discover";"We've hidden a surprise in your account just for you. Open your account now to discover what it is. Excited yet?";curiosity
+"Did You Notice This New Feature?";"We've quietly rolled out a new feature in your account. Have you noticed it yet? Click here to see if you're right!";curiosity
+"Unlock a Hidden Message Just for You";"There's a hidden message in your account waiting just for you. Click here to unlock it. What could it say?";curiosity
+"Hurry! Your Exclusive Access Expires Soon";"Your exclusive access to our new feature is expiring soon. Don't miss out on this opportunity. Click now!";excitement
+"Last Chance: Special Discount Ending";"This is your last chance to grab our special discount. It ends in a few hours. Click here to claim it now!";excitement
+"Flash Sale: Limited Time Offer Just for You";"FLASH SALE: A limited-time offer just for you. Click here to access it before it's gone. Time is ticking!";excitement
+"Exclusive Event Invitation: RSVP Now";"You're invited to an exclusive event. Spaces are limited, so RSVP now by clicking here. Don't miss this!";excitement
+"Act Now: Your Account Benefits Are Waiting";"Special benefits have been added to your account, but they won't be there forever. Click here to activate them now!";excitement
+"Unusual Sign-In Activity: Was This You?";"We've detected unusual sign-in activity on your account. If this wasn't you, click here to secure your account immediately.";confusion
+"Account Verification Error: Please Assist";"There seems to be an error with your account verification. We're confused, are you? Click here for assistance.";confusion
+"Conflicting Information Received";"We've received conflicting information regarding your account. Help us clarify by clicking here. Your assistance is crucial.";confusion
+"Your Subscription Status: Clarification Needed";"Your subscription status shows conflicting data. We're puzzled and need your help to clarify. Click here to resolve.";confusion
+"Password Change Requested: Did You Initiate This?";"A request to change your password was made, but it seems suspicious. Was this you? Click here if not, to secure your account.";confusion
+"We're Here to Help: Update Your Preferences";"To better serve you, we're inviting you to update your preferences. Help us help you by clicking here.";caring
+"A Friendly Reminder: Update Available";"Just a friendly reminder that an update is available for your account. Click here to ensure the best experience.";caring
+"Thank You for Your Loyalty: A Special Gift";"As a token of our appreciation for your continued loyalty, we've added a special gift to your account. Click to see what it is!";caring
+"Your Opinion Matters: Share Your Thoughts";"Your opinion is invaluable to us. Share your thoughts by clicking here. Let's make your experience even better together.";caring
+"Keeping You Informed: Important Account Updates";"We've made some updates to your account. Click here to stay informed and ensure your experience remains seamless.";caring
+"Dear Team"; "I am continuously impressed by the dedication and creativity you bring to our projects. Your hard work does not go unnoticed. Best, [Your Name]";admiration
+"Hello [Name]"; "I just wanted to let you know how much I admire your leadership and vision. You truly inspire me. Regards, [Your Name]";admiration
+"Dear [Name]"; "Your recent achievement is a testament to your hard work and talent. I'm so impressed and inspired by you! Congratulations, [Your Name]";admiration
+"Hi [Name]"; "Watching you tackle challenges with such grace and intelligence has filled me with admiration. Keep up the great work! Cheers, [Your Name]";admiration
+"Dear [Name]"; "The way you handled that situation was remarkable. I have so much respect and admiration for your approach. Best wishes, [Your Name]";admiration
+"Dear [Name]"; "I am writing to express my frustration with the recent decision made. It has caused a lot of inconveniences and needs to be addressed immediately. Sincerely, [Your Name]";anger
+"Hello [Name]"; "It's upsetting how this situation was handled. We expect better and demand a reevaluation of the decision. Regards, [Your Name]";anger
+"Dear [Name]"; "I'm incredibly disappointed and angered by the lack of attention to detail in this project. This is unacceptable and requires immediate action. Best, [Your Name]";anger
+"Hi [Name]"; "The outcome of this project is far from what was promised. This is not just disappointing, it's infuriating. A discussion is needed. Regards, [Your Name]";anger
+"Dear Team"; "The repeated mistakes and oversights have led to significant setbacks. This level of carelessness is infuriating and must be corrected. Sincerely, [Your Name]";anger
+"Dear [Name]"; "I'm reaching out because there seems to be a misunderstanding regarding the recent instructions. Could we clarify this? Thanks, [Your Name]";confusion
+"Hello [Name]"; "The directions provided were quite vague, and I'm unsure how to proceed. Could you provide more clarity? Best, [Your Name]";confusion
+"Dear [Name]"; "I find myself confused by the changes made without prior discussion. Can we review this together? Regards, [Your Name]";confusion
+"Hi [Name]"; "The latest updates have left me puzzled. Could you explain the reasoning behind these decisions? Thank you, [Your Name]";confusion
+"Dear Team"; "The conflicting messages received lately have caused quite a bit of confusion. Can we have a meeting to ensure we're all on the same page? Best, [Your Name]";confusion
+"Dear [Name]"; "I am thrilled to share that we've achieved our quarterly goals ahead of schedule! This is a moment of great joy and pride for us. Cheers, [Your Name]";joy
+"Hello [Name]"; "Just wanted to say how happy I am with the progress we're making. Every step forward is a reason to celebrate! Best, [Your Name]";joy
+"Dear [Name]"; "Your latest achievement has filled me with such joy. Congratulations on this well-deserved success! Warm regards, [Your Name]";joy
+"Hi [Name]"; "Seeing our team come together and deliver exceptional results has been a true joy. Thank you for your hard work and dedication. Regards, [Your Name]";joy
+"Dear Team"; "The feedback from our clients has been overwhelmingly positive. This is a testament to our hard work and it fills me with joy. Great job, everyone! Best, [Your Name]";joy
+"Dear [Name]"; "It's with a heavy heart that I write to you about the passing of [Person]. Their presence will be deeply missed. Sincerely, [Your Name]";sadness
+"Hello [Name]"; "I'm saddened to hear about your recent loss. Please know that my thoughts are with you during this difficult time. Regards, [Your Name]";sadness
+"Dear [Name]"; "The news of the project's cancellation has left us all feeling quite downcast. Let's discuss how we can move forward. Best, [Your Name]";sadness
+"Hi [Name]"; "I regret to inform you that I won't be able to continue with our planned collaboration. This decision wasn't easy and brings me great sadness. Regards, [Your Name]";sadness
+"Dear Team"; "Despite our best efforts, we were not able to meet our targets this time. This is disappointing, but let's use it as a learning opportunity. Sincerely, [Your Name]";sadness
+"You WON!"; "Click here to claim your brand new iPhone 15! Limited time offer - act NOW: [suspicious link]"; desire
+"Urgent: Limited-time discount on designer brands!";  "Shop now before they're gone: [suspicious link]"; desire
+"Congratulations!"; "You've been selected for a $500 gift card. Click to redeem: [suspicious link]"; desire
+"Your dream vacation awaits!"; "Limited spots – incredible deals! Claim yours here: [suspicious link]"; desire
+"Unclaimed funds located!"; "You're entitled to a substantial payout. Verify to claim: [suspicious link]"; desire
+"Unusual activity detected on your account."; "Please confirm login details IMMEDIATELY: [suspicious link]"; fear
+"We have sensitive photos of you."; "Pay [amount] in Bitcoin or they will be released."; fear
+"Your payment has failed."; "Avoid late .fees and service interruption Update details here: [suspicious link]"; fear
+"Your personal data may be compromised."; "Click to run a security scan: [suspicious link]"; fear
+"Did you try to log in from [unusual location]?"; "If not, secure your account NOW: [suspicious link]"; fear
+"Congratulations!"; "You're a lucky winner in our exclusive sweepstakes. Claim your prize: [suspicious link]"; surprise
+"Shocking video of you is trending online."; "Click to remove immediately: [suspicious link]"; embarrassment
+"A distant relative has left you a fortune!"; "Click to start the claim process: [suspicious link]"; surprise
+"You have a surprise delivery waiting!"; "Track your package here: [suspicious link]"; surprise
+"Someone sent you a secret gift."; "Click to find out who: [suspicious link]"; surprise 
+"As a loyal customer; we have a special bonus for you."; "Claim your reward here: [suspicious link]"; gratitude
+"Thank you for your continued support!"; "Here's a small gift from us: [suspicious link]"; gratitude
+"We're grateful for your business!"; "Claim your exclusive discount: [suspicious link]"; gratitude
+"As a valued customer; we have a reward for you."; "Click to redeem: [suspicious link]"; gratitude
+"We're so grateful!"; "Enjoy this token of our appreciation: [suspicious link]"; gratitude
+"Your account issue has been resolved."; "Click to confirm: [suspicious link]"; relief
+"Your refund is being processed."; "Track the status here: [suspicious link]"; relief
+"We've stopped a fraudulent transaction on your account."; "Secure it now: [suspicious link]"; relief
+"Your delayed order is now on its way."; "View tracking details: [suspicious link]"; relief
+"We've detected suspicious activity and secured your account."; "Click to review: [suspicious link]"; relief
+"Congratulations!"; "You've been selected for an exclusive chance to win a brand-new iPhone. All we need is for you to confirm your account details and address. Don't miss out on this once-in-a-lifetime opportunity. Click here to claim your prize now!"; desire
+"We've noticed some unusual activity on your account"; "including access from an unrecognized device. It appears there's been a breach involving personal content. Immediate verification required to secure your account and prevent any embarrassing leaks. Click here to verify your identity."; embarrassment
+"Unexpected account activity alert: You've received a $1000 credit from an anonymous donor!"; "To claim this unexpected gift, simply provide your banking details for verification, and the funds will be yours. Act fast, this offer expires in 24 hours!"; surprise
+"As a token of our appreciation for your continued support, we're offering you an exclusive gift card worth $500!"; "To redeem this special offer, please update your payment information through the link provided. Thank you for being a valued customer!"; gratitude
+"After recent security breaches, we're offering a complimentary one-year subscription to our premium antivirus software."; "This is our way of saying thank you for your trust and to offer relief in these trying times. Click here to activate your free subscription."; relief
