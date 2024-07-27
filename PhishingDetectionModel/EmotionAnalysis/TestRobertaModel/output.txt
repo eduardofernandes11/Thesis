@@ -105,17 +105,17 @@ As a token of our appreciation for your continued support, we're offering you an
 After recent security breaches, we're offering a complimentary one-year subscription to our premium antivirus software. This is our way of saying thank you for your trust and to offer relief in these trying times. Click here to activate your free subscription.
 
 ---EMOTIONS---
-confusion
-surprise 
 joy
-admiration
-curiosity
-desire
-gratitude
-anger
-excitement
-relief
-sadness
-caring
 fear
+curiosity
+sadness
+desire
+anger
+relief
+excitement
+caring
+admiration
 surprise
+surprise 
+gratitude
+confusion

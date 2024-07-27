@@ -1,5 +1,8 @@
 **/build
 **/__pycache__
+**/Data
+**/my_dir
+**/SyntheticEmailHeaders
 *.aux
 *.bbl
 *.bcf
