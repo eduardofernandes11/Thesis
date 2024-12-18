@@ -3,6 +3,7 @@
 **/Data
 **/my_dir
 **/SyntheticEmailHeaders
+**/results
 *.aux
 *.bbl
 *.bcf
